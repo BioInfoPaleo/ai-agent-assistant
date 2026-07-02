@@ -2,13 +2,13 @@ import os
 import chromadb
 from openai import OpenAI
 
-# --- Set up the LLM client (same as Day 2) ---
+# --- Set up the LLM client  ---
 llm = OpenAI(
     base_url="https://router.huggingface.co/v1",
     api_key=os.environ["HF_TOKEN"],
 )
 
-# --- Set up Chroma and load the docs (same as Hour 2) ---
+# --- Set up Chroma and load the docs ) ---
 chroma = chromadb.Client()
 collection = chroma.create_collection(name="csl_docs")
 
