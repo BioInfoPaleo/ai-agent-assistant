@@ -3,7 +3,7 @@ import chromadb
 client = chromadb.Client()
 collection = client.create_collection(name="csl_docs")
 
-# Your three documents, as text
+# three CSL document example
 documents = {
     "overview": """CSL is a global biotechnology company dedicated to developing and delivering innovative medicines that help people with serious and rare diseases. Founded in Australia over a century ago, it operates across more than 100 countries. CSL Behring develops plasma-derived therapies and recombinant treatments for rare and serious conditions including immunology, hematology, respiratory, cardiovascular and transplant medicine. Seqirus is one of the world's largest influenza vaccine providers, supplying seasonal and pandemic influenza vaccines globally. CSL Vifor focuses on therapies for iron deficiency, kidney disease and nephrology. The company invests significantly in research and development, operates a worldwide network of manufacturing facilities, plasma collection centres and research laboratories, and maintains rigorous quality standards. Its mission is to save lives and improve quality of life for people with serious diseases.""",
 
